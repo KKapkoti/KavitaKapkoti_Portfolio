@@ -20,7 +20,9 @@ import LogoTheSparksFoundationLight from '/public/images/logo-TheSparksFoundatio
 
 import ProjectWellness from '/public/images/project1.jpg';
 import LeaveManagementSystem from '/public/images/LMS.jpg';
-import BasicBankingSystem from '/public/images/BankingSystem.jpg';
+// import BasicBankingSystem from '/public/images/BankingSystem.jpg';
+import Taskure from '/public/images/Taskure.jpg';
+
 
 import UTU from '/public/images/utu-logo.png';
 import KU from '/public/images/logo-print.png';
@@ -161,15 +163,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
       'Tech Stack: MongoDB, Express.js, React.js, Node.js (MERN)'
     ],
   },
-  // {
-  //   logo: LogoDotnpixel,
-  //   darkModeLogo: LogoDotnpixelLight,
-  //   logoAlt: 'Dotnpixel logo',
-  //   position: 'Full Stack Developer',
-  //   startDate: new Date(2024, 3),
-  //   endDate: new Date(2024, 4),
-  //   summary: ['Worked as a web developer intern(React / Laravel).'],
-  // },
+
 ];
 
 export const PROJECTS: ProjectDetails[] = [
@@ -206,18 +200,17 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
-    name: 'BasicBankingSystem',
+    name: 'Taskure',
     description:
-      'Built a secure MERN stack banking system with seamless fund transfers, RESTful APIs for data management, and a responsive React frontend for viewing customer and transaction details.',
-    url: 'https://stately-malasada-4cade2.netlify.app/',
-    previewImage: BasicBankingSystem,
+      'Taskure is a modern, beautiful To-Do List App with real-time clock, calendar, and CRUD functionality. Designed with Glassmorphism UI, it is built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).',
+    url: 'https://github.com/KKapkoti/to-do-app',
+    previewImage: Taskure,
     technologies: [
       'React',
       'Node.js',
       'Express.js',
       'MongoDB',
       'Postman',
-      'netlify',
     ],
   },
 ];

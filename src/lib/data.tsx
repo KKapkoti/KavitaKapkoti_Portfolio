@@ -18,10 +18,10 @@ import logoAicte from '/public/images/AICTE-Logo.png';
 import LogoTheSparksFoundation from '/public/images/logo-TheSparksFoundation-light.png';
 import LogoTheSparksFoundationLight from '/public/images/logo-TheSparksFoundation-light.png';
 
-import ProjectWellness from '/public/images/project1.jpg';
-import LeaveManagementSystem from '/public/images/LMS.jpg';
-// import BasicBankingSystem from '/public/images/BankingSystem.jpg';
-import Taskure from '/public/images/Taskure.jpg';
+// import ProjectWellness from '@/assets/images/project1.jpg';
+// import LeaveManagementSystem from '@/assets/images/LMS.jpg';
+// // import BasicBankingSystem from '/public/images/BankingSystem.jpg';
+// import Taskure from '@/assets/images/Taskure.jpg';
 
 
 import UTU from '/public/images/utu-logo.png';
@@ -172,7 +172,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'An innovativeAI-powered mental health support platform that aims to break the stigma surrounding mental health issues and provide accessible, personalized, and comprehensive resources to users. By leveraging natural language processing (NLP) and machine learning (ML), Wellness recognizes emotions from text inputs, offering empathetic and tailored responses to support users on their mental health journey.',
     url: 'https://github.com/KKapkoti/AI-Powered-Mental-Health-Chatbot-with-Emotion-Recognition',
-    previewImage: ProjectWellness,
+    previewImage: "/images/project1.jpg",
     technologies: [
       'Figma',
       'React',
@@ -190,7 +190,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
     url: 'https://github.com/KKapkoti/leave_management_system',
-    previewImage: LeaveManagementSystem,
+    previewImage: "/images/LMS.jpg",
     technologies: [
       'React',
       'Node.js',
@@ -204,7 +204,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'Taskure is a modern, beautiful To-Do List App with real-time clock, calendar, and CRUD functionality. Designed with Glassmorphism UI, it is built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).',
     url: 'https://github.com/KKapkoti/to-do-app',
-    previewImage: Taskure,
+    previewImage: "/images/Taskure.jpg",
     technologies: [
       'React',
       'Node.js',

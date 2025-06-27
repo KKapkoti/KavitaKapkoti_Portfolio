@@ -6,7 +6,7 @@ import Container from '@/components/layout/container';
 
 const EducationSection = () => {
   return (
-    <Container id="Education" className="bg-gray-50">
+    <Container id="education" className="bg-gray-50">
       <div className="flex flex-col items-center gap-4">
         <div className="self-center">
           <Tag label="Education" />

@@ -6,7 +6,7 @@ import Container from '@/components/layout/container';
 
 const SkillsSection = () => {
   return (
-    <Container>
+    <Container id="skills" >
       <div className="flex flex-col items-center gap-4">
         <div className="self-center">
           <Tag label="Skills" />
@@ -17,7 +17,7 @@ const SkillsSection = () => {
       </div>
 
       <div className="grid grid-cols-3 gap-y-4 md:grid-cols-6 md:gap-y-8 lg:grid-cols-8 lg:gap-y-12">
-        {TECHNOLOGIES.map((technology, index) => (
+        {TECHNOLOGIES?.map((technology, index) => (
           <TechDetails {...technology} key={index} />
         ))}
       </div>

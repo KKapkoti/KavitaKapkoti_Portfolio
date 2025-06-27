@@ -31,7 +31,7 @@ const AboutMeSection = () => {
         {/* Content */}
         <div className="flex max-w-xl flex-col gap-6">
           <Typography variant="h3">
-            Here’s a little about who I am:
+            Here&rsquo;s a little about who I am:
           </Typography>
           <Typography>
             I&apos;m a passionate,{' '}
@@ -49,15 +49,15 @@ const AboutMeSection = () => {
           </Typography>
           <Typography>
             My journey began during my B.Tech in Computer Science and Engineering, where I developed a strong interest in software development. 
-            Since then, I’ve been consistently learning, building, and contributing to real-world projects, exploring everything from frontend design to backend architecture, and cloud services.
+            Since then, I&rsquo;ve been consistently learning, building, and contributing to real-world projects, exploring everything from frontend design to backend architecture, and cloud services.
           </Typography>
           <Typography>
-            I’m always curious and eager to grow as a developer.
+            I&rsquo;m always curious and eager to grow as a developer.
              I enjoy working on products from start to finish—right from brainstorming ideas to writing production-ready code.
              My focus is on web-application that are not only functional but also create real impact.
           </Typography>
           <Typography>
-           When I'm not coding, you'll find me exploring open-source projects, reading about new tech trends, or sharing knowledge with my peers. You can connect with me on
+           When I&rsquo;m not coding, you&rsquo;ll find me exploring open-source projects, reading about new tech trends, or sharing knowledge with my peers. You can connect with me on
            {' '}
             <Link
               noCustomization
@@ -79,7 +79,7 @@ const AboutMeSection = () => {
             </Link>
             .
           </Typography>
-          <Typography>Here's a quick snapshot about me.</Typography>
+          <Typography>Here&rsquo;s a quick snapshot about me.</Typography>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">
@@ -93,7 +93,7 @@ const AboutMeSection = () => {
             </ul>
           </div>
           <Typography>
-              I'm currently open to freelance and full-time opportunities—feel free to reach out and say hi!
+              I&rsquo;m currently open to freelance and full-time opportunities—feel free to reach out and say hi!
           </Typography>
         </div>
       </div>

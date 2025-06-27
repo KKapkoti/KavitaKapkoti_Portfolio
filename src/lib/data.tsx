@@ -1,5 +1,4 @@
 import { Github, Twitter, Figma, Linkedin } from 'lucide-react';
-
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
@@ -225,17 +224,17 @@ export const PROJECTS: ProjectDetails[] = [
 
 export const Education: EducationDetails[] = [
   {
-    personName: 'B.Tech CSE',
-    personAvatar: UTU,
+    course: 'B.Tech CSE',
+    collegeIcon: UTU,
     title: 'University-Uttarakhand Technical University',
     education:
        'Completed 4-year undergraduate degree with a focus on full stack development, data structures, and modern web technologies.',
     startDate: new Date(2022, 8),
-    endDate: new Date(2025, 6),
+    currentlyWorkHere: true
   },
   {
-    personName: 'B.Sc PCM',
-    personAvatar: KU,
+    course: 'B.Sc PCM',
+    collegeIcon: KU,
     title: 'University - Kumaun University',
     education:
        'Completed undergraduate studies with a strong foundation in analytical and scientific thinking.',
@@ -243,9 +242,9 @@ export const Education: EducationDetails[] = [
     endDate: new Date(2022, 4),
   },
   {
-    personName: 'Senior Secondary PCM',
-    personAvatar: UKboard,
-    title: 'Board-Uttarakhand Board',
+    course: 'Senior Secondary PCM',
+    collegeIcon: UKboard,
+    title: 'Board-Uttarakhand Board of School Education',
     education:
       'Completed higher secondary education with a focus on Physics, Chemistry, and Mathematics.',
     startDate: new Date(2018, 6),

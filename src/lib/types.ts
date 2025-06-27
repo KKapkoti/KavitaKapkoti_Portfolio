@@ -26,9 +26,12 @@ export type ProjectDetails = {
   technologies: string[];
 };
 
-export type TestimonialDetails = {
-  personName: string;
-  personAvatar?: string | StaticImageData;
-  testimonial: string;
+export type EducationDetails = {
+  course: string;
+  collegeIcon?: string | StaticImageData;
+  education: string;
   title: string;
+ startDate: Date;
+  endDate?: Date;
+  currentlyWorkHere?: boolean; 
 };

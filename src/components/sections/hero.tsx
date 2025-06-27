@@ -32,9 +32,9 @@ const HeroSection = () => {
             </Typography>
             <Typography>
               I&apos;m a recent B.Tech CSE graduate and an aspiring Full Stack Developer with a focus on the MERN stack (MongoDB, Express.js, React.js, Node.js). 
-              I’m passionate about building fast, responsive, and user-friendly web applications With hands-on experience from internships and self-learning, I’ve developed skills in frontend/backend development, API integration, version control.
-             I’m also exploring mobile development with React Native and emerging tech like cloud computing.
-              Driven, adaptable, and always learning — I’m excited to grow, collaborate, and contribute to impactful tech solutions.
+              I&rsquo;m passionate about building fast, responsive, and user-friendly web applications With hands-on experience from internships and self-learning, I&rsquo;ve developed skills in frontend/backend development, API integration, version control.
+             I&rsquo;m also exploring mobile development with React Native and emerging tech like cloud computing.
+              Driven, adaptable, and always learning — I&rsquo;m excited to grow, collaborate, and contribute to impactful tech solutions.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">

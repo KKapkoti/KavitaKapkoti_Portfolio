@@ -12,7 +12,7 @@ const EducationSection = () => {
           <Tag label="Education" />
         </div>
         <Typography variant="subtitle" className="max-w-xl text-center">
-          Nice things people have said about me:
+          My Academic Background:
         </Typography>
       </div>
 

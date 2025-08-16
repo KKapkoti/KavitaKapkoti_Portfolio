@@ -1,4 +1,4 @@
-import { Github, Twitter, Figma, Linkedin } from 'lucide-react';
+import { Github, Twitter, Linkedin } from 'lucide-react';
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
@@ -76,7 +76,7 @@ export const SOCIAL_LINKS = [
   },
 ];
 
-export const TECHNOLOGIES: TechDetails[] = [
+export const TECHNOLOGIES = [
 
   {
     label: 'React',
@@ -134,7 +134,7 @@ export const TECHNOLOGIES: TechDetails[] = [
   },
 ];
 
-export const EXPERIENCES: ExperienceDetails[] = [
+export const EXPERIENCES= [
   {
     logo: logoAicte,
     logoAlt: 'Aicte logo',
@@ -166,7 +166,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 ];
 
-export const PROJECTS: ProjectDetails[] = [
+export const PROJECTS = [
   {
     name: 'Wellness',
     description:
@@ -215,7 +215,7 @@ export const PROJECTS: ProjectDetails[] = [
   },
 ];
 
-export const Education: EducationDetails[] = [
+export const Education= [
   {
     course: 'B.Tech CSE',
     collegeIcon: UTU,

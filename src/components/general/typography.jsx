@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { cva, type VariantProps } from 'class-variance-authority';
+import { cva } from 'class-variance-authority';
 
 import { mergeClasses } from '@/lib/utils';
 
@@ -20,16 +20,7 @@ const typographyVariants = cva('text-gray-600 text-normal', {
   },
 });
 
-interface TypographyProps
-  extends React.DetailedHTMLProps<
-      React.HTMLAttributes<HTMLHeadingElement>,
-      HTMLHeadingElement
-    >,
-    VariantProps<typeof typographyVariants> {
-  component?: React.ElementType;
-}
-
-let elementMapping = {
+const elementMapping = {
   h1: 'h1',
   h2: 'h2',
   h3: 'h3',
@@ -39,19 +30,9 @@ let elementMapping = {
   body3: 'p',
 };
 
-type ComponentElement = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p' | 'span';
-
-const Typography = React.forwardRef<
-  HTMLHeadingElement | HTMLParagraphElement,
-  TypographyProps
->(
-  (
-    { component, className = '', variant, children, ...props }: TypographyProps,
-    ref
-  ) => {
-    const Comp = (
-      component ? component : variant ? elementMapping[variant] : 'p'
-    ) as ComponentElement;
+const Typography = React.forwardRef(
+  ({ component, className = '', variant, children, ...props }, ref) => {
+    const Comp = component ? component : variant ? elementMapping[variant] : 'p';
 
     return (
       <Comp

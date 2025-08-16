@@ -23,8 +23,8 @@ const AboutMeSection = () => {
               alt="Profile of Kavita"
               className="absolute z-10 h-[360px] w-[280px] border-8 border-gray-50 max-md:left-5 md:right-0 md:top-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"
               style={{ objectFit: 'cover' }}
-            ></Image>
-            <div className="absolute h-[360px] w-[320px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:left-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"></div>
+            />
+            <div className="absolute h-[360px] w-[320px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:left-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]" />
           </div>
         </div>
 
@@ -34,16 +34,7 @@ const AboutMeSection = () => {
             Here&rsquo;s a little about who I am:
           </Typography>
           <Typography>
-            I&apos;m a passionate,{' '}
-            {/* <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.FIGMA}
-            >
-              self-proclaimed designer
-            </Link>{' '} */}
-            passionate full stack developer specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js). 
+            I&apos;m a passionate full stack developer specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js). 
             I love blending technical logic with visual creativity to bring modern, responsive, and user-friendly digital experiences to life. 
             Writing clean, maintainable, and performance-optimized code is something I deeply care about.
           </Typography>
@@ -53,12 +44,11 @@ const AboutMeSection = () => {
           </Typography>
           <Typography>
             I&rsquo;m always curious and eager to grow as a developer.
-             I enjoy working on products from start to finish—right from brainstorming ideas to writing production-ready code.
-             My focus is on web-application that are not only functional but also create real impact.
+            I enjoy working on products from start to finish—right from brainstorming ideas to writing production-ready code.
+            My focus is on web-application that are not only functional but also create real impact.
           </Typography>
           <Typography>
-           When I&rsquo;m not coding, you&rsquo;ll find me exploring open-source projects, reading about new tech trends, or sharing knowledge with my peers. You can connect with me on
-           {' '}
+            When I&rsquo;m not coding, you&rsquo;ll find me exploring open-source projects, reading about new tech trends, or sharing knowledge with my peers. You can connect with me on{' '}
             <Link
               noCustomization
               externalLink
@@ -76,14 +66,13 @@ const AboutMeSection = () => {
               href={EXTERNAL_LINKS.GITHUB}
             >
               GitHub
-            </Link>
-            .
+            </Link>.
           </Typography>
           <Typography>Here&rsquo;s a quick snapshot about me.</Typography>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">
-                B.E. in Computer Engineering
+                B.Tech in Computer Engineering
               </Typography>
               <Typography component="li">Aspiring MERN Stack Developer</Typography>
             </ul>
@@ -93,7 +82,7 @@ const AboutMeSection = () => {
             </ul>
           </div>
           <Typography>
-              I&rsquo;m currently open to freelance and full-time opportunities—feel free to reach out and say hi!
+            I&rsquo;m currently open to freelance and full-time opportunities—feel free to reach out and say hi!
           </Typography>
         </div>
       </div>

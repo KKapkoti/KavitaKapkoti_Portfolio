@@ -1,16 +1,11 @@
 import Image from 'next/image';
 import { ExternalLink } from 'lucide-react';
 
-import { ProjectDetails as ProjectDetailsType } from '@/lib/types';
 import { mergeClasses } from '@/lib/utils';
 import Typography from '@/components/general/typography';
 import Link from '@/components/navigation/link';
 import Tag from '@/components/data-display/tag';
 import Card from '@/components/layout/card';
-
-type ProjectDetailsProps = ProjectDetailsType & {
-  layoutType: 'default' | 'reverse';
-};
 
 const ProjectDetails = ({
   name,
@@ -19,7 +14,7 @@ const ProjectDetails = ({
   url,
   previewImage,
   layoutType = 'default',
-}: ProjectDetailsProps) => {
+}) => {
   return (
     <Card className="mx-auto flex w-full max-w-6xl flex-col md:flex-row">
       {/* Image */}

@@ -1,17 +1,9 @@
 import * as React from 'react';
-import NextLink, { LinkProps as NextLinkProps } from 'next/link';
+import NextLink from 'next/link';
 
 import { mergeClasses } from '@/lib/utils';
 
-interface LinkProps extends NextLinkProps {
-  className?: string;
-  children?: React.ReactNode;
-  noCustomization?: boolean;
-  externalLink?: boolean;
-  withUnderline?: boolean;
-}
-
-const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
+const Link = React.forwardRef(
   (
     {
       noCustomization,
@@ -20,7 +12,7 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
       externalLink = false,
       withUnderline = false,
       ...props
-    }: LinkProps,
+    },
     ref
   ) => {
     return (

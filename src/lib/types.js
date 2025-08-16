@@ -42,4 +42,3 @@ import  { StaticImageData } from 'next/image';
 
 //export empty objects to avoid unused file warning
 export {};
-

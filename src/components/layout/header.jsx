@@ -30,7 +30,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const size = useWindowSize();
 
-  // close sidebar if open in screen size < 768px
+  // close sidebar if open in screen size > 767px
   useEffect(() => {
     if (size?.width && size?.width > 767 && isOpen) {
       setIsOpen(false);

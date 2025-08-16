@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { cva, type VariantProps } from 'class-variance-authority';
+import { cva } from 'class-variance-authority';
 
 import { mergeClasses } from '@/lib/utils';
 
@@ -18,15 +18,7 @@ const iconButtonVariants = cva(
   }
 );
 
-export interface IconButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
-    VariantProps<typeof iconButtonVariants> {
-  asChild?: boolean;
-  showTooltip?: boolean;
-  tooltipText?: string;
-}
-
-const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(
+const IconButton = React.forwardRef(
   (
     {
       className,

@@ -12,3 +12,4 @@ export const copyTextToClipboard = async (text) => {
     return document.execCommand('copy', true, text);
   }
 };
+

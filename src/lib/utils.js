@@ -1,11 +1,11 @@
-import { ClassValue, clsx } from 'clsx';
+import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
-export const mergeClasses = (...inputs: ClassValue[]) => {
+export const mergeClasses = (...inputs) => {
   return twMerge(clsx(inputs));
 };
 
-export const copyTextToClipboard = async (text: string) => {
+export const copyTextToClipboard = async (text) => {
   if ('clipboard' in navigator) {
     return await navigator.clipboard.writeText(text);
   } else {
